@@ -1,6 +1,8 @@
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
+const { authenticateToken, authorizeAdmin } = require('./auth');
+
 
 const router = express.Router();
 const usersFile = path.join(__dirname, '../data/users.json');
