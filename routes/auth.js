@@ -2,6 +2,13 @@ const express = require('express');
 const router = express.Router();
 const jwt = require('jsonwebtoken');
 const bcrypt = require('bcryptjs');
+const fs = require('fs');
+const path = require('path');
+const usersFile = path.join(__dirname, '../data/users.json');
+
+function readUsers() {
+  return JSON.parse(fs.readFileSync(usersFile, 'utf-8') || '[]');
+}
 
 const SECRET_KEY = process.env.SECRET_KEY || "supersecretkey";
 
@@ -16,36 +23,50 @@ let users = [
 
 // Signup (only for demo, usually admin creates users)
 router.post('/signup', async (req, res) => {
-  const { username, password, role } = req.body;
-  
+  const { username, password, name, region, city, phone } = req.body;
+  const users = readUsers();
+
   if (users.find(u => u.username === username)) {
-    return res.status(400).json({ message: "User already exists" });
+    return res.status(400).json({ message: "Username already exists" });
   }
-  
+
   const hashedPassword = await bcrypt.hash(password, 10);
-  users.push({ username, password: hashedPassword, role: role || "user" });
-  
+  const newUser = {
+    id: users.length ? users[users.length - 1].id + 1 : 1,
+    username,
+    password: hashedPassword,
+    name,
+    region,
+    city,
+    phone,
+    bilimTokens: 50, // default tokens
+    role: "user"
+  };
+
+  users.push(newUser);
+  fs.writeFileSync(usersFile, JSON.stringify(users, null, 2));
+
   res.status(201).json({ message: "User registered" });
 });
 
 // Login
 router.post('/login', async (req, res) => {
   const { username, password } = req.body;
-  
+  const users = readUsers();
   const user = users.find(u => u.username === username);
-  if (!user) return res.status(400).json({ message: "Invalid credentials" });
-  
+  if (!user) return res.status(400).json({ message: "Invalid username or password" });
+
   const isMatch = await bcrypt.compare(password, user.password);
-  if (!isMatch) return res.status(400).json({ message: "Invalid credentials" });
-  
-  const token = jwt.sign(
-    { username: user.username, role: user.role },
-    SECRET_KEY,
-    { expiresIn: '2h' }
-  );
-  
-  res.json({ token });
+  if (!isMatch) return res.status(400).json({ message: "Invalid username or password" });
+
+  const token = jwt.sign({ id: user.id, role: user.role }, SECRET_KEY, { expiresIn: '2h' });
+
+  // Send user info except password
+  const { password: _, ...userWithoutPassword } = user;
+
+  res.json({ token, user: userWithoutPassword });
 });
+
 
 // Middleware to verify token
 function authenticateToken(req, res, next) {

@@ -1,19 +1,24 @@
 [
-    {
-      "id": 1,
-      "name": "Botirxonov Faxriyor",
-      "region": "Kashkadarya",
-      "city": "Karshi city",
-      "phone": "+998997130912",
-      "bilimTokens": 120
-    },
-    {
-      "id": 2,
-      "name": "Mahzuna Raupova",
-      "region": "Tashkent",
-      "city": "Tashkent City",
-      "phone": "+998911234567",
-      "bilimTokens": 80
-    }
-  ]
-  
+  {
+    "id": 1,
+    "username": "faxriyor",
+    "password": "faxriyor_123", 
+    "name": "Botirxonov Faxriyor",
+    "region": "Kashkadarya",
+    "city": "Karshi city",
+    "phone": "+998997130912",
+    "bilimTokens": 120,
+    "role": "user"
+  },
+  {
+    "id": 2,
+    "username": "mahzuna",
+    "password": "faxriyor_123",
+    "name": "Mahzuna Raupova",
+    "region": "Tashkent",
+    "city": "Tashkent City",
+    "phone": "+998911234567",
+    "bilimTokens": 80,
+    "role": "user"
+  }
+]
