@@ -1,8 +1,8 @@
 const express = require('express');
-const router = express.Router();
 const fs = require('fs');
 const path = require('path');
 
+const router = express.Router();
 const usersFile = path.join(__dirname, '../data/users.json');
 
 function readUsers() {
@@ -13,12 +13,18 @@ function writeUsers(users) {
   fs.writeFileSync(usersFile, JSON.stringify(users, null, 2));
 }
 
-// Get all users
+// ✅ Get all users (with optional filtering)
 router.get('/', (req, res) => {
-  res.json(readUsers());
+  let users = readUsers();
+  const { region, city } = req.query;
+
+  if (region) users = users.filter(u => u.region.toLowerCase() === region.toLowerCase());
+  if (city) users = users.filter(u => u.city.toLowerCase() === city.toLowerCase());
+
+  res.json(users);
 });
 
-// Get user by ID
+// ✅ Get user by ID
 router.get('/:id', (req, res) => {
   const users = readUsers();
   const user = users.find(u => u.id === +req.params.id);
@@ -26,17 +32,18 @@ router.get('/:id', (req, res) => {
   res.json(user);
 });
 
-// Add user
+// ✅ Add a new user
 router.post('/', (req, res) => {
   const users = readUsers();
   const newUser = req.body;
   newUser.id = users.length ? users[users.length - 1].id + 1 : 1;
+  newUser.bilimTokens = newUser.bilimTokens || 0;
   users.push(newUser);
   writeUsers(users);
   res.status(201).json(newUser);
 });
 
-// Update user tokens
+// ✅ Update user (e.g., name, city, tokens)
 router.put('/:id', (req, res) => {
   const users = readUsers();
   const id = +req.params.id;
@@ -48,7 +55,7 @@ router.put('/:id', (req, res) => {
   res.json(users[index]);
 });
 
-// Delete user
+// ✅ Delete user
 router.delete('/:id', (req, res) => {
   let users = readUsers();
   users = users.filter(u => u.id !== +req.params.id);
