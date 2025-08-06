@@ -1,0 +1,50 @@
+[
+    {
+      "id": 1,
+      "category": "Web Development",
+      "name": {
+        "en": "HTML Basics",
+        "uz": "HTML Asoslari",
+        "ru": "Основы HTML"
+      },
+      "description": {
+        "en": "Learn the foundation of HTML for creating web pages.",
+        "uz": "HTML yordamida veb-sahifalar yaratish asoslarini o'rganing.",
+        "ru": "Изучите основы HTML для создания веб-страниц."
+      },
+      "content": {
+        "en": "HTML stands for HyperText Markup Language...",
+        "uz": "HTML - HyperText Markup Language degan ma'noni anglatadi...",
+        "ru": "HTML означает HyperText Markup Language..."
+      },
+      "image": "https://example.com/images/html.png",
+      "quiz": [
+        {
+          "question": {
+            "en": "What does HTML stand for?",
+            "uz": "HTML nimani anglatadi?",
+            "ru": "Что означает HTML?"
+          },
+          "options": {
+            "en": [
+              "HyperText Markup Language",
+              "HighText Markup Language",
+              "Hyper Transfer Machine Language"
+            ],
+            "uz": [
+              "HyperText Markup Language",
+              "HighText Markup Language",
+              "Hyper Transfer Machine Language"
+            ],
+            "ru": [
+              "Язык разметки гипертекста",
+              "Язык разметки высокого текста",
+              "Язык гипертрансфера"
+            ]
+          },
+          "answer": 0
+        }
+      ]
+    }
+  ]
+  
