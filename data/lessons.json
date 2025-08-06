@@ -1,132 +1,130 @@
-[ 
-    
+[
+    {
+      "id": 1,
+      "category": "Subjects",
+      "name": {
+        "en": "Uzbek Language Basics",
+        "uz": "O'zbek Tili Asoslari",
+        "ru": "Основы Узбекского Языка"
+      },
+      "description": {
+        "en": "Learn basic Uzbek grammar and vocabulary.",
+        "uz": "O'zbek tili grammatikasi va so'z boyligini o'rganing.",
+        "ru": "Изучите основы грамматики и словарного запаса узбекского языка."
+      },
+      "image": "https://example.com/images/uzbek-language.png",
+      "content": [
         {
-          "id": 1,
-          "category": "Subjects",
-          "name": {
-            "en": "Uzbek Language Basics",
-            "uz": "O'zbek Tili Asoslari",
-            "ru": "Основы Узбекского Языка"
+          "title": "Introduction to Uzbek Language",
+          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
+          "text": {
+            "en": "Uzbek language uses Latin script today.",
+            "uz": "O'zbek tili bugungi kunda lotin yozuvini ishlatadi.",
+            "ru": "Современный узбекский язык использует латинский алфавит."
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "type": "multiple-choice",
+          "question": {
+            "en": "Which script does modern Uzbek use?",
+            "uz": "Zamonaviy o'zbek tili qaysi yozuvdan foydalanadi?",
+            "ru": "Какой алфавит используется в современном узбекском?"
           },
-          "description": {
-            "en": "Learn basic Uzbek grammar and vocabulary.",
-            "uz": "O'zbek tili grammatikasi va so'z boyligini o'rganing.",
-            "ru": "Изучите основы грамматики и словарного запаса узбекского языка."
+          "options": {
+            "en": ["Cyrillic", "Latin", "Arabic", "Greek"],
+            "uz": ["Kirill", "Lotin", "Arab", "Yunon"],
+            "ru": ["Кириллица", "Латиница", "Арабский", "Греческий"]
           },
-          "image": "https://example.com/images/uzbek-language.png",
-          "content": [
-            {
-              "title": "Introduction to Uzbek Language",
-              "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-              "text": {
-                "en": "Uzbek language uses Latin script today.",
-                "uz": "O'zbek tili bugungi kunda lotin yozuvini ishlatadi.",
-                "ru": "Современный узбекский язык использует латинский алфавит."
-              }
-            }
-          ],
-          "quiz": [
-            {
-              "type": "multiple-choice",
-              "question": {
-                "en": "Which script does modern Uzbek use?",
-                "uz": "Zamonaviy o'zbek tili qaysi yozuvdan foydalanadi?",
-                "ru": "Какой алфавит используется в современном узбекском?"
-              },
-              "options": {
-                "en": ["Cyrillic", "Latin", "Arabic", "Greek"],
-                "uz": ["Kirill", "Lotin", "Arab", "Yunon"],
-                "ru": ["Кириллица", "Латиница", "Арабский", "Греческий"]
-              },
-              "answer": "Latin"
-            }
-          ]
+          "answer": "Latin"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "category": "Subjects",
+      "name": {
+        "en": "Basic Mathematics",
+        "uz": "Matematika Asoslari",
+        "ru": "Основы Математики"
+      },
+      "description": {
+        "en": "Learn addition, subtraction, multiplication, and division.",
+        "uz": "Qo'shish, ayirish, ko'paytirish va bo'lishni o'rganing.",
+        "ru": "Изучите сложение, вычитание, умножение и деление."
+      },
+      "image": "https://example.com/images/mathematics.png",
+      "content": [
+        {
+          "title": "Arithmetic Basics",
+          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
+          "text": {
+            "en": "Arithmetic operations form the foundation of mathematics.",
+            "uz": "Aritmetik amallar matematikaning asosi hisoblanadi.",
+            "ru": "Арифметические операции — основа математики."
+          }
+        }
+      ],
+      "quiz": [
+        {
+          "type": "multiple-choice",
+          "question": {
+            "en": "What is 15 × 3?",
+            "uz": "15 × 3 nechaga teng?",
+            "ru": "Чему равно 15 × 3?"
+          },
+          "options": {
+            "en": ["45", "30", "35", "50"],
+            "uz": ["45", "30", "35", "50"],
+            "ru": ["45", "30", "35", "50"]
+          },
+          "answer": "45"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "category": "Future Jobs",
+      "name": {
+        "en": "Web Developer (HTML, CSS, JavaScript)",
+        "uz": "Veb dasturchi (HTML, CSS, JavaScript)",
+        "ru": "Веб-разработчик (HTML, CSS, JavaScript)"
+      },
+      "description": {
+        "en": "Create interactive and responsive websites.",
+        "uz": "Interaktiv va moslashuvchan saytlar yaratish.",
+        "ru": "Создание интерактивных и адаптивных веб-сайтов."
+      },
+      "image": "https://example.com/images/webdeveloper.png",
+      "content": [
+        {
+          "title": "Introduction to Web Development",
+          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
+          "text": {
+            "en": "Web development uses HTML, CSS, and JavaScript.",
+            "uz": "Veb-ishlab chiqish HTML, CSS va JavaScriptdan foydalanadi.",
+            "ru": "Веб-разработка использует HTML, CSS и JavaScript."
+          }
         },
         {
-          "id": 2,
-          "category": "Subjects",
-          "name": {
-            "en": "Basic Mathematics",
-            "uz": "Matematika Asoslari",
-            "ru": "Основы Математики"
-          },
-          "description": {
-            "en": "Learn addition, subtraction, multiplication, and division.",
-            "uz": "Qo'shish, ayirish, ko'paytirish va bo'lishni o'rganing.",
-            "ru": "Изучите сложение, вычитание, умножение и деление."
-          },
-          "image": "https://example.com/images/mathematics.png",
-          "content": [
-            {
-              "title": "Arithmetic Basics",
-              "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-              "text": {
-                "en": "Arithmetic operations form the foundation of mathematics.",
-                "uz": "Aritmetik amallar matematikaning asosi hisoblanadi.",
-                "ru": "Арифметические операции — основа математики."
-              }
-            }
-          ],
-          "quiz": [
-            {
-              "type": "multiple-choice",
-              "question": {
-                "en": "What is 15 × 3?",
-                "uz": "15 × 3 nechaga teng?",
-                "ru": "Чему равно 15 × 3?"
-              },
-              "options": {
-                "en": ["45", "30", "35", "50"],
-                "uz": ["45", "30", "35", "50"],
-                "ru": ["45", "30", "35", "50"]
-              },
-              "answer": "45"
-            }
-          ]
-        },
+          "title": "Learn HTML Basics",
+          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
+          "text": {
+            "en": "HTML gives structure to web pages.",
+            "uz": "HTML sahifaga tuzilish beradi.",
+            "ru": "HTML задает структуру веб-странице."
+          }
+        }
+      ],
+      "quiz": [
         {
-          "id": 101,
-          "category": "Future Jobs",
-          "name": {
-            "en": "Web Developer (HTML, CSS, JavaScript)",
-            "uz": "Veb dasturchi (HTML, CSS, JavaScript)",
-            "ru": "Веб-разработчик (HTML, CSS, JavaScript)"
-          },
-          "description": {
-            "en": "Create interactive and responsive websites.",
-            "uz": "Interaktiv va moslashuvchan saytlar yaratish.",
-            "ru": "Создание интерактивных и адаптивных веб-сайтов."
-          },
-          "image": "https://example.com/images/webdeveloper.png",
-          "content": [
-            {
-              "title": "Introduction to Web Development",
-              "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-              "text": {
-                "en": "Web development uses HTML, CSS, and JavaScript.",
-                "uz": "Veb-ishlab chiqish HTML, CSS va JavaScriptdan foydalanadi.",
-                "ru": "Веб-разработка использует HTML, CSS и JavaScript."
-              }
-            },
-            {
-              "title": "Learn HTML Basics",
-              "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-              "text": {
-                "en": "HTML gives structure to web pages.",
-                "uz": "HTML sahifaga tuzilish beradi.",
-                "ru": "HTML задает структуру веб-странице."
-              }
-            }
-          ],
-          "quiz": [
-            {
-              "type": "code",
-              "question": "Write HTML code for a heading that says 'Hello World'",
-              "expectedOutput": "<h1>Hello World</h1>"
-            }
-          ]
-        },
-      
+          "type": "code",
+          "question": "Write HTML code for a heading that says 'Hello World'",
+          "expectedOutput": "<h1>Hello World</h1>"
+        }
+      ]
+    },
     {
       "id": 102,
       "category": "Future Jobs",
@@ -382,6 +380,5 @@
         }
       ]
     }
-
   ]
   
