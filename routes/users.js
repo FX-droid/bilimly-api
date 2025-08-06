@@ -72,4 +72,11 @@ router.delete('/:id', (req, res) => {
   res.json({ message: "User deleted" });
 });
 
+router.get('/me', authenticateToken, (req, res) => {
+  const users = readUsers(); // read from users.json
+  const user = users.find(u => u.id === req.user.id);
+  if (!user) return res.status(404).json({ message: "User not found" });
+  res.json(user);
+});
+
 module.exports = router;
