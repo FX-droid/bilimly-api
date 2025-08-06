@@ -13,16 +13,18 @@ function writeUsers(users) {
   fs.writeFileSync(usersFile, JSON.stringify(users, null, 2));
 }
 
-// ✅ Get all users (with optional filtering)
 router.get('/', (req, res) => {
-  let users = readUsers();
-  const { region, city } = req.query;
-
-  if (region) users = users.filter(u => u.region.toLowerCase() === region.toLowerCase());
-  if (city) users = users.filter(u => u.city.toLowerCase() === city.toLowerCase());
-
-  res.json(users);
-});
+    let users = readUsers();
+    const { region, city, name, phone } = req.query;
+  
+    if (region) users = users.filter(u => u.region.toLowerCase() === region.toLowerCase());
+    if (city) users = users.filter(u => u.city.toLowerCase() === city.toLowerCase());
+    if (name) users = users.filter(u => u.name.toLowerCase().includes(name.toLowerCase()));
+    if (phone) users = users.filter(u => u.phone === phone);
+  
+    res.json(users);
+  });
+  
 
 // ✅ Get user by ID
 router.get('/:id', (req, res) => {
@@ -34,15 +36,22 @@ router.get('/:id', (req, res) => {
 
 // ✅ Add a new user
 router.post('/', (req, res) => {
-  const users = readUsers();
-  const newUser = req.body;
-  newUser.id = users.length ? users[users.length - 1].id + 1 : 1;
-  newUser.bilimTokens = newUser.bilimTokens || 0;
-  users.push(newUser);
-  writeUsers(users);
-  res.status(201).json(newUser);
-});
-
+    const users = readUsers();
+    const newUser = req.body;
+  
+    // Add defaults
+    newUser.id = users.length ? users[users.length - 1].id + 1 : 1;
+    newUser.bilimTokens = newUser.bilimTokens || 0;
+  
+    if (!newUser.phone) {
+      return res.status(400).json({ message: "Phone number is required" });
+    }
+  
+    users.push(newUser);
+    writeUsers(users);
+    res.status(201).json(newUser);
+  });
+  
 // ✅ Update user (e.g., name, city, tokens)
 router.put('/:id', (req, res) => {
   const users = readUsers();
