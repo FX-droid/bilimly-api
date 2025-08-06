@@ -1,50 +1,105 @@
 [
     {
-      "id": 1,
-      "category": "Web Development",
+      "id": 101,
+      "category": "Future Jobs",
       "name": {
-        "en": "HTML Basics",
-        "uz": "HTML Asoslari",
-        "ru": "Основы HTML"
+        "en": "Web Developer (HTML, CSS, JavaScript)",
+        "uz": "Veb dasturchi (HTML, CSS, JavaScript)",
+        "ru": "Веб-разработчик (HTML, CSS, JavaScript)"
       },
       "description": {
-        "en": "Learn the foundation of HTML for creating web pages.",
-        "uz": "HTML yordamida veb-sahifalar yaratish asoslarini o'rganing.",
-        "ru": "Изучите основы HTML для создания веб-страниц."
+        "en": "Create interactive and responsive websites.",
+        "uz": "Interaktiv va moslashuvchan saytlar yaratish.",
+        "ru": "Создание интерактивных и адаптивных веб-сайтов."
       },
-      "content": {
-        "en": "HTML stands for HyperText Markup Language...",
-        "uz": "HTML - HyperText Markup Language degan ma'noni anglatadi...",
-        "ru": "HTML означает HyperText Markup Language..."
+      "content": { },
+      "image": "https://example.com/images/webdeveloper.png",
+      "quiz": []
+    },
+    {
+      "id": 102,
+      "category": "Future Jobs",
+      "name": {
+        "en": "Graphic Designer",
+        "uz": "Grafik dizayner",
+        "ru": "Графический дизайнер"
       },
-      "image": "https://example.com/images/html.png",
-      "quiz": [
-        {
-          "question": {
-            "en": "What does HTML stand for?",
-            "uz": "HTML nimani anglatadi?",
-            "ru": "Что означает HTML?"
-          },
-          "options": {
-            "en": [
-              "HyperText Markup Language",
-              "HighText Markup Language",
-              "Hyper Transfer Machine Language"
-            ],
-            "uz": [
-              "HyperText Markup Language",
-              "HighText Markup Language",
-              "Hyper Transfer Machine Language"
-            ],
-            "ru": [
-              "Язык разметки гипертекста",
-              "Язык разметки высокого текста",
-              "Язык гипертрансфера"
-            ]
-          },
-          "answer": 0
-        }
-      ]
+      "description": {
+        "en": "Design visuals and creative content using software.",
+        "uz": "Dizayn dasturlari yordamida vizual kontent yaratish.",
+        "ru": "Создавать визуальный и креативный контент с помощью программ."
+      },
+      "content": {},
+      "image": "https://example.com/images/graphicdesigner.png",
+      "quiz": []
+    },
+    {
+      "id": 103,
+      "category": "Future Jobs",
+      "name": {
+        "en": "AI Specialist",
+        "uz": "Sun'iy intellekt mutaxassisi",
+        "ru": "Специалист по искусственному интеллекту"
+      },
+      "description": {
+        "en": "Work with machine learning and AI technologies.",
+        "uz": "Mashina o'rganish va AI texnologiyalari bilan ishlash.",
+        "ru": "Работа с технологиями машинного обучения и ИИ."
+      },
+      "content": { },
+      "image": "https://example.com/images/ai-specialist.png",
+      "quiz": []
+    },
+    {
+      "id": 104,
+      "category": "Future Jobs",
+      "name": {
+        "en": "Telegram Bot Developer",
+        "uz": "Telegram bot dasturchisi",
+        "ru": "Разработчик Telegram ботов"
+      },
+      "description": {
+        "en": "Create automated bots for Telegram platforms.",
+        "uz": "Telegram uchun avtomatlashtirilgan botlar yaratish.",
+        "ru": "Создание автоматизированных ботов для Telegram."
+      },
+      "content": {  },
+      "image": "https://example.com/images/telegram-bot.png",
+      "quiz": []
+    },
+    {
+      "id": 105,
+      "category": "Future Jobs",
+      "name": {
+        "en": "Video Editor",
+        "uz": "Video montajchi",
+        "ru": "Видео монтажер"
+      },
+      "description": {
+        "en": "Edit and create videos using editing software.",
+        "uz": "Video tahrirlash dasturlari yordamida videolar yaratish.",
+        "ru": "Редактирование и создание видео с помощью программ."
+      },
+      "content": {},
+      "image": "https://example.com/images/video-editor.png",
+      "quiz": []
+    },
+    {
+      "id": 106,
+      "category": "Future Jobs",
+      "name": {
+        "en": "E-commerce Seller (Uzum Market)",
+        "uz": "Elektron tijorat sotuvchisi (Uzum Market)",
+        "ru": "Продавец в электронной коммерции (Uzum Market)"
+      },
+      "description": {
+        "en": "Sell products online using Uzum marketplace.",
+        "uz": "Uzum bozori orqali onlayn mahsulot sotish.",
+        "ru": "Продажа товаров онлайн через маркетплейс Uzum."
+      },
+      "content": {  },
+      "image": "https://example.com/images/uzum-market.png",
+      "quiz": []
     }
   ]
   
