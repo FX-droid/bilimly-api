@@ -14,26 +14,32 @@ function writeLessons(lessons) {
   fs.writeFileSync(lessonsFile, JSON.stringify(lessons, null, 2));
 }
 
-// GET all lessons with language filter
 router.get('/', (req, res) => {
-  const lang = req.query.lang || 'en';
-  const lessons = readLessons();
-
-  const localizedLessons = lessons.map(lesson => ({
-    id: lesson.id,
-    category: lesson.category,
-    name: lesson.name[lang] || lesson.name['en'],
-    description: lesson.description[lang] || lesson.description['en'],
-    content: lesson.content[lang] || lesson.content['en'],
-    image: lesson.image,
-    quiz: lesson.quiz.map(q => ({
-      question: q.question[lang] || q.question['en'],
-      options: q.options[lang] || q.options['en'],
-      answer: q.answer
-    }))
-  }));
-  res.json(localizedLessons);
+    const lang = req.query.lang || 'en';
+    const category = req.query.category; // <-- NEW
+    let lessons = readLessons();
+  
+    if (category) {
+      lessons = lessons.filter(lesson => lesson.category.toLowerCase() === category.toLowerCase());
+    }
+  
+    const localizedLessons = lessons.map(lesson => ({
+      id: lesson.id,
+      category: lesson.category,
+      name: lesson.name[lang] || lesson.name['en'],
+      description: lesson.description[lang] || lesson.description['en'],
+      content: lesson.content[lang] || lesson.content['en'],
+      image: lesson.image,
+      quiz: lesson.quiz.map(q => ({
+        question: q.question[lang] || q.question['en'],
+        options: q.options[lang] || q.options['en'],
+        answer: q.answer
+      }))
+    }));
+  
+    res.json(localizedLessons);
 });
+  
 
 // GET lesson by ID
 router.get('/:id', (req, res) => {

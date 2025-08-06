@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "name": "Ali Karimov",
+      "region": "Tashkent",
+      "city": "Tashkent City",
+      "bilimTokens": 120
+    },
+    {
+      "id": 2,
+      "name": "Laylo Shermatova",
+      "region": "Samarkand",
+      "city": "Samarkand City",
+      "bilimTokens": 80
+    }
+  ]
+  
