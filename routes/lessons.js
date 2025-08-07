@@ -5,23 +5,18 @@ const path = require('path');
 
 const lessonsFile = path.join(__dirname, '../data/lessons.json');
 
-// Read lessons from file
 function readLessons() {
   const data = fs.readFileSync(lessonsFile, 'utf-8');
   return JSON.parse(data || '[]');
 }
 
-// Write lessons to file
 function writeLessons(lessons) {
   fs.writeFileSync(lessonsFile, JSON.stringify(lessons, null, 2));
 }
 
-/**
- * GET /api/lessons
- * Optional query params:
- * - lang (en/uz/ru)
- * - category (e.g., Future Jobs or Subjects)
- */
+const { authenticateToken, authorizeAdmin } = require('./auth');
+
+// Get all lessons with optional lang and category filters
 router.get('/', (req, res) => {
   try {
     const lang = req.query.lang || 'en';
@@ -58,9 +53,7 @@ router.get('/', (req, res) => {
   }
 });
 
-/**
- * GET /api/lessons/:id
- */
+// Get lesson by ID
 router.get('/:id', (req, res) => {
   try {
     const lang = req.query.lang || 'en';
@@ -94,10 +87,7 @@ router.get('/:id', (req, res) => {
   }
 });
 
-// 🔐 Protected routes for Admin
-const { authenticateToken, authorizeAdmin } = require('./auth');
-
-// Create lesson
+// Create lesson (Admin only)
 router.post('/', authenticateToken, authorizeAdmin, (req, res) => {
   try {
     const lessons = readLessons();
@@ -112,7 +102,7 @@ router.post('/', authenticateToken, authorizeAdmin, (req, res) => {
   }
 });
 
-// Update lesson
+// Update lesson (Admin only)
 router.put('/:id', authenticateToken, authorizeAdmin, (req, res) => {
   try {
     const lessons = readLessons();
@@ -129,7 +119,7 @@ router.put('/:id', authenticateToken, authorizeAdmin, (req, res) => {
   }
 });
 
-// Delete lesson
+// Delete lesson (Admin only)
 router.delete('/:id', authenticateToken, authorizeAdmin, (req, res) => {
   try {
     let lessons = readLessons();

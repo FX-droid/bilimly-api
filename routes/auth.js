@@ -12,7 +12,7 @@ function readUsers() {
   return JSON.parse(fs.readFileSync(usersFile, 'utf-8') || '[]');
 }
 
-// Signup route
+// Signup
 router.post('/signup', async (req, res) => {
   const { username, password, name, region, city, phone } = req.body;
   const users = readUsers();
@@ -39,7 +39,7 @@ router.post('/signup', async (req, res) => {
   res.status(201).json({ message: 'User registered' });
 });
 
-// Login route
+// Login
 router.post('/login', async (req, res) => {
   const { username, password } = req.body;
   const users = readUsers();
@@ -50,10 +50,9 @@ router.post('/login', async (req, res) => {
   const isMatch = await bcrypt.compare(password, user.password);
   if (!isMatch) return res.status(400).json({ message: 'Invalid username or password' });
 
-  // Create token with numeric user id
   const token = jwt.sign({ id: user.id, role: user.role }, SECRET_KEY, { expiresIn: '2h' });
 
-  // Remove password from user before sending
+  // Exclude password before sending user object
   const { password: _, ...userWithoutPassword } = user;
 
   res.json({ token, user: userWithoutPassword });
@@ -68,14 +67,22 @@ function authenticateToken(req, res, next) {
   jwt.verify(token, SECRET_KEY, (err, user) => {
     if (err) return res.status(403).json({ message: 'Invalid token' });
 
-    // Ensure id is numeric
     user.id = typeof user.id === 'string' ? parseInt(user.id, 10) : user.id;
     req.user = user;
     next();
   });
 }
 
+// Middleware to authorize admin users
+function authorizeAdmin(req, res, next) {
+  if (req.user.role !== 'admin') {
+    return res.status(403).json({ message: 'Access denied: Admins only' });
+  }
+  next();
+}
+
 module.exports = {
   router,
   authenticateToken,
+  authorizeAdmin,
 };
