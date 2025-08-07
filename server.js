@@ -1,8 +1,8 @@
 const express = require('express');
 const cors = require('cors');
-const authRoutes = require('./routes/auth').router;
-const lessonRoutes = require('./routes/lessons');
+const { router: authRoutes } = require('./routes/auth');
 const userRoutes = require('./routes/users');
+const lessonRoutes = require('./routes/lessons'); // Make sure lessons.js exports router
 
 require('dotenv').config();
 
@@ -13,8 +13,8 @@ app.use(cors());
 app.use(express.json());
 
 app.use('/api/auth', authRoutes);
-app.use('/api/lessons', lessonRoutes);
 app.use('/api/users', userRoutes);
+app.use('/api/lessons', lessonRoutes);
 
 app.get('/', (req, res) => {
   res.send('Bilimly API is running');
