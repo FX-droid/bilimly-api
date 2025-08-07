@@ -95,7 +95,7 @@ router.get('/:id', (req, res) => {
 });
 
 // 🔐 Protected routes for Admin
-const { authenticateToken, authorizeAdmin } = require('./auth');
+const { authenticateToken, authorizeAdmin } = require('../middleware/auth');
 
 // Create lesson
 router.post('/', authenticateToken, authorizeAdmin, (req, res) => {
