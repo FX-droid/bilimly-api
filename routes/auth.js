@@ -70,6 +70,14 @@ function authenticateToken(req, res, next) {
   });
 }
 
+// Middleware to authorize admin users only
+function authorizeAdmin(req, res, next) {
+  if (req.user.role !== "admin") {
+    return res.status(403).json({ message: "Admin access required" });
+  }
+  next();
+}
+
 module.exports = {
   router,
   authenticateToken,
