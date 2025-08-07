@@ -30,7 +30,7 @@ router.post('/signup', async (req, res) => {
     region,
     city,
     phone,
-    bilimTokens: 50,
+    bilimTokens: 0,
     role: 'user',
   };
 

@@ -38,7 +38,7 @@ router.get('/:id', (req, res) => {
 // Add a new user
 router.post('/', (req, res) => {
   const users = readUsers();
-  const newUser = req.body;
+  const newUser =   req.body;
 
   newUser.id = users.length ? users[users.length - 1].id + 1 : 1;
   newUser.bilimTokens = newUser.bilimTokens || 0;
