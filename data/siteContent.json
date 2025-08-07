@@ -1,0 +1,23 @@
+{
+    "navbar": {
+      "logo": "/img/logo.png",
+      "links": [
+        { "title": "Home", "url": "/" },
+        { "title": "About", "url": "/about" },
+        { "title": "Courses", "url": "/courses" },
+        { "title": "Contact", "url": "/contact" }
+      ]
+    },
+    "landingPage": {
+      "title": "Welcome to Bilimly!",
+      "subtitle": "Empowering minds through knowledge.",
+      "image": "/img/landing.png",
+      "ctaText": "Get Started",
+      "ctaLink": "/register"
+    },
+    "aboutSection": {
+      "text": "Bilimly is a platform dedicated to education and innovation...",
+      "image": "/img/about-us.png"
+    }
+  }
+      
