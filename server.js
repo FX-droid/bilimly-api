@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const { router: authRoutes } = require('./middleware/auth');
+const { router: authRoutes } = require('./routes/auth');
 const userRoutes = require('./routes/users');
 const lessonRoutes = require('./routes/lessons'); // Make sure lessons.js exports router
 
