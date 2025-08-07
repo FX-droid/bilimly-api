@@ -70,4 +70,8 @@ function authenticateToken(req, res, next) {
   });
 }
 
-module.exports = { router, authenticateToken };
+module.exports = {
+  router,
+  authenticateToken,
+  authorizeAdmin
+};
