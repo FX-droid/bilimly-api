@@ -1,17 +1,13 @@
 {
     "navbar": {
-      "logo": "/img/logo.png",
-      "links": [
-        { "title": "Home", "url": "/" },
-        { "title": "About", "url": "/about" },
-        { "title": "Courses", "url": "/courses" },
-        { "title": "Contact", "url": "/contact" }
-      ]
+      "logo": "./img/logo-mini-bilimly.png"
+     
     },
     "landingPage": {
       "title": "Welcome to Bilimly!",
       "subtitle": "Empowering minds through knowledge.",
-      "image": "/img/landing.png",
+      "icons":["./img/speak-icon.png","./img/bag-icon.png","./img/idea-icon.png"],
+
       "ctaText": "Get Started",
       "ctaLink": "/register"
     },
@@ -20,4 +16,3 @@
       "image": "/img/about-us.png"
     }
   }
-      
