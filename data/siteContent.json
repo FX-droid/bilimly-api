@@ -5,7 +5,8 @@
     },
     "landingPage": {
       "icons":["https://i.postimg.cc/J4xPswgr/icon-9.png","https://i.postimg.cc/zDSbnTr7/icon-10.png","https://i.postimg.cc/90pDCHpK/Progress-circle.png","https://i.postimg.cc/pLtZf1Kh/Group-518.png","https://i.postimg.cc/bYWLJvJR/Briefcase.png","https://i.postimg.cc/F1XHdmtK/idea.png"],
-       
+      "main_image":"https://postimg.cc/PpypqzfZ",
+      "timer_image":"https://postimg.cc/QHQLK4GR",
       "tutors":10,
       "courses":10,
       "video_courses":20,
