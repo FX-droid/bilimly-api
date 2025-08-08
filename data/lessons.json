@@ -2,6 +2,9 @@
     {
       "id": 1,
       "category": "Subjects",
+        "turor":"Alijonov Valijon",
+        "rating":5,
+        "rating_votes":0, 
       "name": {
         "en": "Uzbek Language Basics",
         "uz": "O'zbek Tili Asoslari",
@@ -44,6 +47,9 @@
     {
       "id": 2,
       "category": "Subjects",
+      "turor":"Alijonov Valijon",
+      "rating":"5.0",
+      "rating_votes":0,       
       "name": {
         "en": "Basic Mathematics",
         "uz": "Matematika Asoslari",
@@ -86,6 +92,9 @@
     {
       "id": 101,
       "category": "Future Jobs",
+      "turor":"Alijonov Valijon",
+      "rating":"5.0",
+      "rating_votes":0,
       "name": {
         "en": "Web Developer (HTML, CSS, JavaScript)",
         "uz": "Veb dasturchi (HTML, CSS, JavaScript)",
@@ -128,6 +137,9 @@
     {
       "id": 102,
       "category": "Future Jobs",
+      "turor":"Alijonov Valijon",
+      "rating":"5.0",
+      "rating_votes":0,
       "name": {
         "en": "Graphic Designer",
         "uz": "Grafik dizayner",
@@ -179,6 +191,9 @@
     {
       "id": 103,
       "category": "Future Jobs",
+      "turor":"Alijonov Valijon",
+      "rating":"5.0",
+      "rating_votes":0,
       "name": {
         "en": "AI Specialist",
         "uz": "Sun'iy intellekt mutaxassisi",
@@ -230,6 +245,9 @@
     {
       "id": 104,
       "category": "Future Jobs",
+      "turor":"Alijonov Valijon",
+      "rating":"5.0",
+      "rating_votes":0,
       "name": {
         "en": "Telegram Bot Developer",
         "uz": "Telegram bot dasturchisi",
@@ -281,6 +299,9 @@
     {
       "id": 105,
       "category": "Future Jobs",
+      "turor":"Alijonov Valijon",
+      "rating":"5.0",
+      "rating_votes":0,
       "name": {
         "en": "Video Editor",
         "uz": "Video montajchi",
@@ -332,6 +353,9 @@
     {
       "id": 106,
       "category": "Future Jobs",
+      "turor":"Alijonov Valijon",
+      "rating":"5.0",
+      "rating_votes":0,
       "name": {
         "en": "E-commerce Seller (Uzum Market)",
         "uz": "Elektron tijorat sotuvchisi (Uzum Market)",
