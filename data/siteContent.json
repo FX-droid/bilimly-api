@@ -4,20 +4,13 @@
      
     },
     "landingPage": {
-      "title": "Welcome to Bilimly!",
-      "subtitle": "Empowering minds through knowledge.",
       "icons":["https://i.postimg.cc/J4xPswgr/icon-9.png","https://i.postimg.cc/zDSbnTr7/icon-10.png","https://i.postimg.cc/90pDCHpK/Progress-circle.png","https://i.postimg.cc/pLtZf1Kh/Group-518.png","https://i.postimg.cc/bYWLJvJR/Briefcase.png","https://i.postimg.cc/F1XHdmtK/idea.png"],
        
-      "ctaText": "Get Started",
-      "ctaLink": "/register",
-      "tutors":"10+",
-      "courses":"10+",
-      "video_courses":"20+",
-      "collabs_num":"1",
-      "collabs":["https://postimg.cc/tZ2wcXLG"]
-    },
-    "aboutSection": {
-      "text": "Bilimly is a platform dedicated to education and innovation...",
-      "image": "/img/about-us.png"
+      "tutors":10,
+      "courses":10,
+      "video_courses":20,
+      "collabs_num":1,
+      "collabs":["https://postimg.cc/tZ2wcXLG"],
+      "social":["https://i.postimg.cc/LXVd814s/Social-icon.png","https://i.postimg.cc/Xq2Tw6CS/Social-icon-1.png","https://i.postimg.cc/Jn8V8qLg/Social-icon-2.png","https://i.postimg.cc/WzpBF1tw/github.png","https://i.postimg.cc/TPgMBsZg/Social-icon-3.png"]
     }
   }

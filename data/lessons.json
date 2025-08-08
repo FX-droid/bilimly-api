@@ -2,7 +2,10 @@
     {
       "id": 1,
       "category": "Subjects",
-        "turor":"Alijonov Valijon",
+        "tutor":"Alijonov Valijon",
+        "hours":0,
+        "mins":0,
+        "tutor_image":"https://postimg.cc/kB3p7JSC",
         "rating":5,
         "rating_votes":0, 
       "name": {
@@ -47,7 +50,10 @@
     {
       "id": 2,
       "category": "Subjects",
-      "turor":"Alijonov Valijon",
+      "tutor":"Alijonov Valijon",
+      "hours":0,
+      "mins":0,
+      "tutor_image":"https://postimg.cc/kB3p7JSC",
       "rating":"5.0",
       "rating_votes":0,       
       "name": {
@@ -92,7 +98,10 @@
     {
       "id": 101,
       "category": "Future Jobs",
-      "turor":"Alijonov Valijon",
+      "tutor":"Alijonov Valijon",
+      "hours":0,
+      "mins":0,
+      "tutor_image":"https://postimg.cc/kB3p7JSC",
       "rating":"5.0",
       "rating_votes":0,
       "name": {
@@ -137,7 +146,10 @@
     {
       "id": 102,
       "category": "Future Jobs",
-      "turor":"Alijonov Valijon",
+      "tutor":"Alijonov Valijon",
+      "hours":0,
+      "mins":0,
+      "tutor_image":"https://postimg.cc/kB3p7JSC",
       "rating":"5.0",
       "rating_votes":0,
       "name": {
@@ -191,7 +203,10 @@
     {
       "id": 103,
       "category": "Future Jobs",
-      "turor":"Alijonov Valijon",
+      "tutor":"Alijonov Valijon",
+      "hours":0,
+      "mins":0,
+      "tutor_image":"https://postimg.cc/kB3p7JSC",
       "rating":"5.0",
       "rating_votes":0,
       "name": {
@@ -245,7 +260,10 @@
     {
       "id": 104,
       "category": "Future Jobs",
-      "turor":"Alijonov Valijon",
+      "tutor":"Alijonov Valijon",
+      "hours":0,
+      "mins":0,
+      "tutor_image":"https://postimg.cc/kB3p7JSC",
       "rating":"5.0",
       "rating_votes":0,
       "name": {
@@ -299,7 +317,10 @@
     {
       "id": 105,
       "category": "Future Jobs",
-      "turor":"Alijonov Valijon",
+      "tutor":"Alijonov Valijon",
+      "hours":0,
+      "mins":0,
+      "tutor_image":"https://postimg.cc/kB3p7JSC",
       "rating":"5.0",
       "rating_votes":0,
       "name": {
@@ -353,7 +374,10 @@
     {
       "id": 106,
       "category": "Future Jobs",
-      "turor":"Alijonov Valijon",
+      "tutor":"Alijonov Valijon",
+      "hours":0,
+      "mins":0,
+      "tutor_image":"https://postimg.cc/kB3p7JSC",
       "rating":"5.0",
       "rating_votes":0,
       "name": {
