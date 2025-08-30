@@ -1,432 +1,545 @@
 [
-    {
-      "id": 1,
-      "category": "Subjects",
-        "tutor":"Alijonov Valijon",
-        "hours":0,
-        "mins":0,
-        "tutor_image":"https://postimg.cc/kB3p7JSC",
-        "rating":5,
-        "rating_votes":0, 
-      "name": {
-        "en": "Uzbek Language Basics",
-        "uz": "O'zbek Tili Asoslari",
-        "ru": "Основы Узбекского Языка"
-      },
-      "description": {
-        "en": "Learn basic Uzbek grammar and vocabulary.",
-        "uz": "O'zbek tili grammatikasi va so'z boyligini o'rganing.",
-        "ru": "Изучите основы грамматики и словарного запаса узбекского языка."
-      },
-      "image": "https://example.com/images/uzbek-language.png",
-      "content": [
-        {
-          "title": "Introduction to Uzbek Language",
-          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-          "text": {
-            "en": "Uzbek language uses Latin script today.",
-            "uz": "O'zbek tili bugungi kunda lotin yozuvini ishlatadi.",
-            "ru": "Современный узбекский язык использует латинский алфавит."
-          }
-        }
-      ],
-      "quiz": [
-        {
-          "type": "multiple-choice",
-          "question": {
-            "en": "Which script does modern Uzbek use?",
-            "uz": "Zamonaviy o'zbek tili qaysi yozuvdan foydalanadi?",
-            "ru": "Какой алфавит используется в современном узбекском?"
-          },
-          "options": {
-            "en": ["Cyrillic", "Latin", "Arabic", "Greek"],
-            "uz": ["Kirill", "Lotin", "Arab", "Yunon"],
-            "ru": ["Кириллица", "Латиница", "Арабский", "Греческий"]
-          },
-          "answer": "Latin"
-        }
-      ]
+  {
+    "id": 1,
+    "category": "Subjects",
+    "tutor": "Alijonov Valijon",
+    "hours": 0,
+    "mins": 0,
+    "tutor_image": "https://postimg.cc/kB3p7JSC",
+    "rating": 5,
+    "rating_votes": 0,
+    "name": {
+      "en": "Uzbek Language Basics",
+      "uz": "O'zbek Tili Asoslari",
+      "ru": "Основы Узбекского Языка"
     },
-    {
-      "id": 2,
-      "category": "Subjects",
-      "tutor":"Alijonov Valijon",
-      "hours":0,
-      "mins":0,
-      "tutor_image":"https://postimg.cc/kB3p7JSC",
-      "rating":"5.0",
-      "rating_votes":0,       
-      "name": {
-        "en": "Basic Mathematics",
-        "uz": "Matematika Asoslari",
-        "ru": "Основы Математики"
-      },
-      "description": {
-        "en": "Learn addition, subtraction, multiplication, and division.",
-        "uz": "Qo'shish, ayirish, ko'paytirish va bo'lishni o'rganing.",
-        "ru": "Изучите сложение, вычитание, умножение и деление."
-      },
-      "image": "https://example.com/images/mathematics.png",
-      "content": [
-        {
-          "title": "Arithmetic Basics",
-          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-          "text": {
-            "en": "Arithmetic operations form the foundation of mathematics.",
-            "uz": "Aritmetik amallar matematikaning asosi hisoblanadi.",
-            "ru": "Арифметические операции — основа математики."
-          }
-        }
-      ],
-      "quiz": [
-        {
-          "type": "multiple-choice",
-          "question": {
-            "en": "What is 15 × 3?",
-            "uz": "15 × 3 nechaga teng?",
-            "ru": "Чему равно 15 × 3?"
-          },
-          "options": {
-            "en": ["45", "30", "35", "50"],
-            "uz": ["45", "30", "35", "50"],
-            "ru": ["45", "30", "35", "50"]
-          },
-          "answer": "45"
-        }
-      ]
+    "description": {
+      "en": "Learn basic Uzbek grammar and vocabulary.",
+      "uz": "O'zbek tili grammatikasi va so'z boyligini o'rganing.",
+      "ru": "Изучите основы грамматики и словарного запаса узбекского языка."
     },
-    {
-      "id": 101,
-      "category": "Future Jobs",
-      "tutor":"Alijonov Valijon",
-      "hours":0,
-      "mins":0,
-      "tutor_image":"https://postimg.cc/kB3p7JSC",
-      "rating":"5.0",
-      "rating_votes":0,
-      "name": {
-        "en": "Web Developer (HTML, CSS, JavaScript)",
-        "uz": "Veb dasturchi (HTML, CSS, JavaScript)",
-        "ru": "Веб-разработчик (HTML, CSS, JavaScript)"
-      },
-      "description": {
-        "en": "Create interactive and responsive websites.",
-        "uz": "Interaktiv va moslashuvchan saytlar yaratish.",
-        "ru": "Создание интерактивных и адаптивных веб-сайтов."
-      },
-      "image": "https://example.com/images/webdeveloper.png",
-      "content": [
-        {
-          "title": "Introduction to Web Development",
-          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-          "text": {
-            "en": "Web development uses HTML, CSS, and JavaScript.",
-            "uz": "Veb-ishlab chiqish HTML, CSS va JavaScriptdan foydalanadi.",
-            "ru": "Веб-разработка использует HTML, CSS и JavaScript."
-          }
+    "image": "https://example.com/images/uzbek-language.png",
+    "content": [
+      {
+        "title": "Introduction to Uzbek Language",
+        "videoUrl": "BAACAgIAAxkBAAMMaLM5OLxjjjVo6F2cKc8SpbpX1QkAAnlkAAJ47WhJaq5NVnolSy82BA",
+        "text": {
+          "en": "Uzbek language uses Latin script today.",
+          "uz": "O'zbek tili bugungi kunda lotin yozuvini ishlatadi.",
+          "ru": "Современный узбекский язык использует латинский алфавит."
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "type": "multiple-choice",
+        "question": {
+          "en": "Which script does modern Uzbek use?",
+          "uz": "Zamonaviy o'zbek tili qaysi yozuvdan foydalanadi?",
+          "ru": "Какой алфавит используется в современном узбекском?"
         },
-        {
-          "title": "Learn HTML Basics",
-          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-          "text": {
-            "en": "HTML gives structure to web pages.",
-            "uz": "HTML sahifaga tuzilish beradi.",
-            "ru": "HTML задает структуру веб-странице."
-          }
-        }
-      ],
-      "quiz": [
-        {
-          "type": "code",
-          "question": "Write HTML code for a heading that says 'Hello World'",
-          "expectedOutput": "<h1>Hello World</h1>"
-        }
-      ]
-    },
-    {
-      "id": 102,
-      "category": "Future Jobs",
-      "tutor":"Alijonov Valijon",
-      "hours":0,
-      "mins":0,
-      "tutor_image":"https://postimg.cc/kB3p7JSC",
-      "rating":"5.0",
-      "rating_votes":0,
-      "name": {
-        "en": "Graphic Designer",
-        "uz": "Grafik dizayner",
-        "ru": "Графический дизайнер"
-      },
-      "description": {
-        "en": "Design visuals and creative content using software.",
-        "uz": "Dizayn dasturlari yordamida vizual kontent yaratish.",
-        "ru": "Создавать визуальный и креативный контент с помощью программ."
-      },
-      "image": "https://example.com/images/graphicdesigner.png",
-      "content": [
-        {
-          "title": "Introduction to Graphic Design",
-          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-          "text": {
-            "en": "Graphic design focuses on visual communication using tools like Photoshop and Illustrator.",
-            "uz": "Grafik dizayn Photoshop va Illustrator kabi vositalar yordamida vizual kommunikatsiyaga e'tibor qaratadi.",
-            "ru": "Графический дизайн фокусируется на визуальной коммуникации с помощью инструментов, таких как Photoshop и Illustrator."
-          }
+        "options": {
+          "en": [
+            "Cyrillic",
+            "Latin",
+            "Arabic",
+            "Greek"
+          ],
+          "uz": [
+            "Kirill",
+            "Lotin",
+            "Arab",
+            "Yunon"
+          ],
+          "ru": [
+            "Кириллица",
+            "Латиница",
+            "Арабский",
+            "Греческий"
+          ]
         },
-        {
-          "title": "Color Theory Basics",
-          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-          "text": {
-            "en": "Understanding color combinations is essential for design.",
-            "uz": "Rang kombinatsiyalarini tushunish dizayn uchun muhimdir.",
-            "ru": "Понимание сочетания цветов важно для дизайна."
-          }
-        }
-      ],
-      "quiz": [
-        {
-          "type": "multiple-choice",
-          "question": {
-            "en": "Which tool is commonly used for graphic design?",
-            "uz": "Grafik dizayn uchun qaysi dastur keng qo'llaniladi?",
-            "ru": "Какой инструмент широко используется для графического дизайна?"
-          },
-          "options": {
-            "en": ["Photoshop", "Excel", "Word", "AutoCAD"],
-            "uz": ["Photoshop", "Excel", "Word", "AutoCAD"],
-            "ru": ["Photoshop", "Excel", "Word", "AutoCAD"]
-          },
-          "answer": "Photoshop"
-        }
-      ]
+        "answer": "Latin"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "category": "Subjects",
+    "tutor": "Alijonov Valijon",
+    "hours": 0,
+    "mins": 0,
+    "tutor_image": "https://postimg.cc/kB3p7JSC",
+    "rating": "5.0",
+    "rating_votes": 0,
+    "name": {
+      "en": "Basic Mathematics",
+      "uz": "Matematika Asoslari",
+      "ru": "Основы Математики"
     },
-    {
-      "id": 103,
-      "category": "Future Jobs",
-      "tutor":"Alijonov Valijon",
-      "hours":0,
-      "mins":0,
-      "tutor_image":"https://postimg.cc/kB3p7JSC",
-      "rating":"5.0",
-      "rating_votes":0,
-      "name": {
-        "en": "AI Specialist",
-        "uz": "Sun'iy intellekt mutaxassisi",
-        "ru": "Специалист по искусственному интеллекту"
-      },
-      "description": {
-        "en": "Work with machine learning and AI technologies.",
-        "uz": "Mashina o'rganish va AI texnologiyalari bilan ishlash.",
-        "ru": "Работа с технологиями машинного обучения и ИИ."
-      },
-      "image": "https://example.com/images/ai-specialist.png",
-      "content": [
-        {
-          "title": "What is AI?",
-          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-          "text": {
-            "en": "AI stands for Artificial Intelligence and involves training machines to think and learn.",
-            "uz": "AI — bu sun'iy intellekt bo'lib, mashinalarni o'rganishga va fikrlashga o'rgatishni o'z ichiga oladi.",
-            "ru": "ИИ — это искусственный интеллект, включающий обучение машин думать и учиться."
-          }
-        },
-        {
-          "title": "AI in Everyday Life",
-          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-          "text": {
-            "en": "Examples: Chatbots, recommendation systems, and self-driving cars.",
-            "uz": "Misollar: Chatbotlar, tavsiya tizimlari va o'zini boshqaradigan avtomobillar.",
-            "ru": "Примеры: чат-боты, рекомендательные системы и беспилотные автомобили."
-          }
-        }
-      ],
-      "quiz": [
-        {
-          "type": "multiple-choice",
-          "question": {
-            "en": "Which of these is an AI application?",
-            "uz": "Quyidagilardan qaysi biri AI ilovasidir?",
-            "ru": "Какое из этих приложений относится к ИИ?"
-          },
-          "options": {
-            "en": ["Calculator", "Chatbot", "MS Paint", "Notepad"],
-            "uz": ["Kalkulyator", "Chatbot", "MS Paint", "Notepad"],
-            "ru": ["Калькулятор", "Чат-бот", "MS Paint", "Блокнот"]
-          },
-          "answer": "Chatbot"
-        }
-      ]
+    "description": {
+      "en": "Learn addition, subtraction, multiplication, and division.",
+      "uz": "Qo'shish, ayirish, ko'paytirish va bo'lishni o'rganing.",
+      "ru": "Изучите сложение, вычитание, умножение и деление."
     },
-    {
-      "id": 104,
-      "category": "Future Jobs",
-      "tutor":"Alijonov Valijon",
-      "hours":0,
-      "mins":0,
-      "tutor_image":"https://postimg.cc/kB3p7JSC",
-      "rating":"5.0",
-      "rating_votes":0,
-      "name": {
-        "en": "Telegram Bot Developer",
-        "uz": "Telegram bot dasturchisi",
-        "ru": "Разработчик Telegram ботов"
-      },
-      "description": {
-        "en": "Create automated bots for Telegram platforms.",
-        "uz": "Telegram uchun avtomatlashtirilgan botlar yaratish.",
-        "ru": "Создание автоматизированных ботов для Telegram."
-      },
-      "image": "https://example.com/images/telegram-bot.png",
-      "content": [
-        {
-          "title": "Introduction to Telegram Bots",
-          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-          "text": {
-            "en": "Telegram bots are automated accounts controlled by software.",
-            "uz": "Telegram botlari dasturiy ta'minot bilan boshqariladigan avtomatlashtirilgan hisoblar.",
-            "ru": "Боты Telegram — это автоматизированные аккаунты, управляемые программным обеспечением."
-          }
+    "image": "https://example.com/images/mathematics.png",
+    "content": [
+      {
+        "title": "Arithmetic Basics",
+        "videoUrl": "BAACAgIAAxkBAAMMaLM5OLxjjjVo6F2cKc8SpbpX1QkAAnlkAAJ47WhJaq5NVnolSy82BA",
+        "text": {
+          "en": "Arithmetic operations form the foundation of mathematics.",
+          "uz": "Aritmetik amallar matematikaning asosi hisoblanadi.",
+          "ru": "Арифметические операции — основа математики."
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "type": "multiple-choice",
+        "question": {
+          "en": "What is 15 × 3?",
+          "uz": "15 × 3 nechaga teng?",
+          "ru": "Чему равно 15 × 3?"
         },
-        {
-          "title": "Creating Your First Bot",
-          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-          "text": {
-            "en": "You can create bots using BotFather and APIs.",
-            "uz": "Botlarni BotFather va API yordamida yaratishingiz mumkin.",
-            "ru": "Ботов можно создавать с помощью BotFather и API."
-          }
-        }
-      ],
-      "quiz": [
-        {
-          "type": "multiple-choice",
-          "question": {
-            "en": "Which tool is used to create a Telegram bot?",
-            "uz": "Telegram botini yaratishda qaysi vosita ishlatiladi?",
-            "ru": "Какой инструмент используется для создания бота Telegram?"
-          },
-          "options": {
-            "en": ["BotFather", "Photoshop", "Figma", "Visual Studio"],
-            "uz": ["BotFather", "Photoshop", "Figma", "Visual Studio"],
-            "ru": ["BotFather", "Photoshop", "Figma", "Visual Studio"]
-          },
-          "answer": "BotFather"
-        }
-      ]
+        "options": {
+          "en": [
+            "45",
+            "30",
+            "35",
+            "50"
+          ],
+          "uz": [
+            "45",
+            "30",
+            "35",
+            "50"
+          ],
+          "ru": [
+            "45",
+            "30",
+            "35",
+            "50"
+          ]
+        },
+        "answer": "45"
+      }
+    ]
+  },
+  {
+    "id": 101,
+    "category": "Future Jobs",
+    "tutor": "Alijonov Valijon",
+    "hours": 0,
+    "mins": 0,
+    "tutor_image": "https://postimg.cc/kB3p7JSC",
+    "rating": "5.0",
+    "rating_votes": 0,
+    "name": {
+      "en": "Web Developer (HTML, CSS, JavaScript)",
+      "uz": "Veb dasturchi (HTML, CSS, JavaScript)",
+      "ru": "Веб-разработчик (HTML, CSS, JavaScript)"
     },
-    {
-      "id": 105,
-      "category": "Future Jobs",
-      "tutor":"Alijonov Valijon",
-      "hours":0,
-      "mins":0,
-      "tutor_image":"https://postimg.cc/kB3p7JSC",
-      "rating":"5.0",
-      "rating_votes":0,
-      "name": {
-        "en": "Video Editor",
-        "uz": "Video montajchi",
-        "ru": "Видео монтажер"
-      },
-      "description": {
-        "en": "Edit and create videos using editing software.",
-        "uz": "Video tahrirlash dasturlari yordamida videolar yaratish.",
-        "ru": "Редактирование и создание видео с помощью программ."
-      },
-      "image": "https://example.com/images/video-editor.png",
-      "content": [
-        {
-          "title": "Introduction to Video Editing",
-          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-          "text": {
-            "en": "Video editing involves cutting, trimming, and enhancing videos.",
-            "uz": "Video montaji videoni kesish, qisqartirish va yaxshilashni o'z ichiga oladi.",
-            "ru": "Видеомонтаж включает обрезку, сокращение и улучшение видео."
-          }
-        },
-        {
-          "title": "Popular Editing Tools",
-          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-          "text": {
-            "en": "Adobe Premiere Pro and CapCut are widely used.",
-            "uz": "Adobe Premiere Pro va CapCut keng qo'llaniladi.",
-            "ru": "Adobe Premiere Pro и CapCut широко используются."
-          }
-        }
-      ],
-      "quiz": [
-        {
-          "type": "multiple-choice",
-          "question": {
-            "en": "Which software is popular for video editing?",
-            "uz": "Video tahrirlash uchun mashhur dastur qaysi?",
-            "ru": "Какое ПО популярно для видеомонтажа?"
-          },
-          "options": {
-            "en": ["Adobe Premiere Pro", "Word", "Excel", "Paint"],
-            "uz": ["Adobe Premiere Pro", "Word", "Excel", "Paint"],
-            "ru": ["Adobe Premiere Pro", "Word", "Excel", "Paint"]
-          },
-          "answer": "Adobe Premiere Pro"
-        }
-      ]
+    "description": {
+      "en": "Create interactive and responsive websites.",
+      "uz": "Interaktiv va moslashuvchan saytlar yaratish.",
+      "ru": "Создание интерактивных и адаптивных веб-сайтов."
     },
-    {
-      "id": 106,
-      "category": "Future Jobs",
-      "tutor":"Alijonov Valijon",
-      "hours":0,
-      "mins":0,
-      "tutor_image":"https://postimg.cc/kB3p7JSC",
-      "rating":"5.0",
-      "rating_votes":0,
-      "name": {
-        "en": "E-commerce Seller (Uzum Market)",
-        "uz": "Elektron tijorat sotuvchisi (Uzum Market)",
-        "ru": "Продавец в электронной коммерции (Uzum Market)"
+    "image": "https://example.com/images/webdeveloper.png",
+    "content": [
+      {
+        "title": "Introduction to Web Development",
+        "videoUrl": "BAACAgIAAxkBAAMMaLM5OLxjjjVo6F2cKc8SpbpX1QkAAnlkAAJ47WhJaq5NVnolSy82BA",
+        "text": {
+          "en": "Web development uses HTML, CSS, and JavaScript.",
+          "uz": "Veb-ishlab chiqish HTML, CSS va JavaScriptdan foydalanadi.",
+          "ru": "Веб-разработка использует HTML, CSS и JavaScript."
+        }
       },
-      "description": {
-        "en": "Sell products online using Uzum marketplace.",
-        "uz": "Uzum bozori orqali onlayn mahsulot sotish.",
-        "ru": "Продажа товаров онлайн через маркетплейс Uzum."
+      {
+        "title": "Learn HTML text formatting",
+        "videoUrl": "BAACAgIAAxkBAAMJaLM3jCGR61jRsa1d6TLHOR6NKmsAAmJkAAJ47WhJ5HkAAYlkGcj3NgQ",
+        "text": {
+          "en": "HTML gives structure to web pages.",
+          "uz": "HTML sahifaga tuzilish beradi.",
+          "ru": "HTML задает структуру веб-странице."
+        }
       },
-      "image": "https://example.com/images/uzum-market.png",
-      "content": [
-        {
-          "title": "What is E-commerce?",
-          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-          "text": {
-            "en": "E-commerce means buying and selling products online.",
-            "uz": "Elektron tijorat mahsulotlarni onlayn sotib olish va sotishni anglatadi.",
-            "ru": "Электронная коммерция — это покупка и продажа товаров онлайн."
-          }
+      {
+        "title": "Learn HTML images",
+        "videoUrl": "BAACAgIAAxkBAAMMaLM5OLxjjjVo6F2cKc8SpbpX1QkAAnlkAAJ47WhJaq5NVnolSy82BA",
+        "text": {
+          "en": "HTML gives structure to web pages.",
+          "uz": "HTML sahifaga tuzilish beradi.",
+          "ru": "HTML задает структуру веб-странице."
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "type": "code",
+        "question": "Write HTML code for a heading that says 'Hello World'",
+        "expectedOutput": "<h1>Hello World</h1>"
+      }
+    ]
+  },
+  {
+    "id": 102,
+    "category": "Future Jobs",
+    "tutor": "Alijonov Valijon",
+    "hours": 0,
+    "mins": 0,
+    "tutor_image": "https://postimg.cc/kB3p7JSC",
+    "rating": "5.0",
+    "rating_votes": 0,
+    "name": {
+      "en": "Graphic Designer",
+      "uz": "Grafik dizayner",
+      "ru": "Графический дизайнер"
+    },
+    "description": {
+      "en": "Design visuals and creative content using software.",
+      "uz": "Dizayn dasturlari yordamida vizual kontent yaratish.",
+      "ru": "Создавать визуальный и креативный контент с помощью программ."
+    },
+    "image": "https://example.com/images/graphicdesigner.png",
+    "content": [
+      {
+        "title": "Introduction to Graphic Design",
+        "videoUrl": "BAACAgIAAxkBAAMMaLM5OLxjjjVo6F2cKc8SpbpX1QkAAnlkAAJ47WhJaq5NVnolSy82BA",
+        "text": {
+          "en": "Graphic design focuses on visual communication using tools like Photoshop and Illustrator.",
+          "uz": "Grafik dizayn Photoshop va Illustrator kabi vositalar yordamida vizual kommunikatsiyaga e'tibor qaratadi.",
+          "ru": "Графический дизайн фокусируется на визуальной коммуникации с помощью инструментов, таких как Photoshop и Illustrator."
+        }
+      },
+      {
+        "title": "Color Theory Basics",
+        "videoUrl": "BAACAgIAAxkBAAMMaLM5OLxjjjVo6F2cKc8SpbpX1QkAAnlkAAJ47WhJaq5NVnolSy82BA",
+        "text": {
+          "en": "Understanding color combinations is essential for design.",
+          "uz": "Rang kombinatsiyalarini tushunish dizayn uchun muhimdir.",
+          "ru": "Понимание сочетания цветов важно для дизайна."
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "type": "multiple-choice",
+        "question": {
+          "en": "Which tool is commonly used for graphic design?",
+          "uz": "Grafik dizayn uchun qaysi dastur keng qo'llaniladi?",
+          "ru": "Какой инструмент широко используется для графического дизайна?"
         },
-        {
-          "title": "Selling on Uzum Market",
-          "videoUrl": "https://www.youtube.com/embed/PLACEHOLDER",
-          "text": {
-            "en": "Uzum Market allows sellers to reach thousands of customers.",
-            "uz": "Uzum Market sotuvchilarga minglab mijozlarga yetib borish imkonini beradi.",
-            "ru": "Uzum Market позволяет продавцам охватить тысячи клиентов."
-          }
+        "options": {
+          "en": [
+            "Photoshop",
+            "Excel",
+            "Word",
+            "AutoCAD"
+          ],
+          "uz": [
+            "Photoshop",
+            "Excel",
+            "Word",
+            "AutoCAD"
+          ],
+          "ru": [
+            "Photoshop",
+            "Excel",
+            "Word",
+            "AutoCAD"
+          ]
+        },
+        "answer": "Photoshop"
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "category": "Future Jobs",
+    "tutor": "Alijonov Valijon",
+    "hours": 0,
+    "mins": 0,
+    "tutor_image": "https://postimg.cc/kB3p7JSC",
+    "rating": "5.0",
+    "rating_votes": 0,
+    "name": {
+      "en": "AI Specialist",
+      "uz": "Sun'iy intellekt mutaxassisi",
+      "ru": "Специалист по искусственному интеллекту"
+    },
+    "description": {
+      "en": "Work with machine learning and AI technologies.",
+      "uz": "Mashina o'rganish va AI texnologiyalari bilan ishlash.",
+      "ru": "Работа с технологиями машинного обучения и ИИ."
+    },
+    "image": "https://example.com/images/ai-specialist.png",
+    "content": [
+      {
+        "title": "What is AI?",
+        "videoUrl": "BAACAgIAAxkBAAMMaLM5OLxjjjVo6F2cKc8SpbpX1QkAAnlkAAJ47WhJaq5NVnolSy82BA",
+        "text": {
+          "en": "AI stands for Artificial Intelligence and involves training machines to think and learn.",
+          "uz": "AI — bu sun'iy intellekt bo'lib, mashinalarni o'rganishga va fikrlashga o'rgatishni o'z ichiga oladi.",
+          "ru": "ИИ — это искусственный интеллект, включающий обучение машин думать и учиться."
         }
-      ],
-      "quiz": [
-        {
-          "type": "multiple-choice",
-          "question": {
-            "en": "What does E-commerce mean?",
-            "uz": "Elektron tijorat nima degani?",
-            "ru": "Что означает электронная коммерция?"
-          },
-          "options": {
-            "en": ["Selling and buying products online", "Buying from stores", "Selling at bazaars", "Cash payments"],
-            "uz": ["Mahsulotlarni onlayn sotib olish va sotish", "Do'kondan xarid qilish", "Bozorda sotish", "Naqd to'lovlar"],
-            "ru": ["Продажа и покупка онлайн", "Покупка в магазинах", "Продажа на базаре", "Оплата наличными"]
-          },
-          "answer": "Selling and buying products online"
+      },
+      {
+        "title": "AI in Everyday Life",
+        "videoUrl": "BAACAgIAAxkBAAMMaLM5OLxjjjVo6F2cKc8SpbpX1QkAAnlkAAJ47WhJaq5NVnolSy82BA",
+        "text": {
+          "en": "Examples: Chatbots, recommendation systems, and self-driving cars.",
+          "uz": "Misollar: Chatbotlar, tavsiya tizimlari va o'zini boshqaradigan avtomobillar.",
+          "ru": "Примеры: чат-боты, рекомендательные системы и беспилотные автомобили."
         }
-      ]
-    }
-  ]
-  
+      }
+    ],
+    "quiz": [
+      {
+        "type": "multiple-choice",
+        "question": {
+          "en": "Which of these is an AI application?",
+          "uz": "Quyidagilardan qaysi biri AI ilovasidir?",
+          "ru": "Какое из этих приложений относится к ИИ?"
+        },
+        "options": {
+          "en": [
+            "Calculator",
+            "Chatbot",
+            "MS Paint",
+            "Notepad"
+          ],
+          "uz": [
+            "Kalkulyator",
+            "Chatbot",
+            "MS Paint",
+            "Notepad"
+          ],
+          "ru": [
+            "Калькулятор",
+            "Чат-бот",
+            "MS Paint",
+            "Блокнот"
+          ]
+        },
+        "answer": "Chatbot"
+      }
+    ]
+  },
+  {
+    "id": 104,
+    "category": "Future Jobs",
+    "tutor": "Alijonov Valijon",
+    "hours": 0,
+    "mins": 0,
+    "tutor_image": "https://postimg.cc/kB3p7JSC",
+    "rating": "5.0",
+    "rating_votes": 0,
+    "name": {
+      "en": "Telegram Bot Developer",
+      "uz": "Telegram bot dasturchisi",
+      "ru": "Разработчик Telegram ботов"
+    },
+    "description": {
+      "en": "Create automated bots for Telegram platforms.",
+      "uz": "Telegram uchun avtomatlashtirilgan botlar yaratish.",
+      "ru": "Создание автоматизированных ботов для Telegram."
+    },
+    "image": "https://example.com/images/telegram-bot.png",
+    "content": [
+      {
+        "title": "Introduction to Telegram Bots",
+        "videoUrl": "BAACAgIAAxkBAAMMaLM5OLxjjjVo6F2cKc8SpbpX1QkAAnlkAAJ47WhJaq5NVnolSy82BA",
+        "text": {
+          "en": "Telegram bots are automated accounts controlled by software.",
+          "uz": "Telegram botlari dasturiy ta'minot bilan boshqariladigan avtomatlashtirilgan hisoblar.",
+          "ru": "Боты Telegram — это автоматизированные аккаунты, управляемые программным обеспечением."
+        }
+      },
+      {
+        "title": "Creating Your First Bot",
+        "videoUrl": "BAACAgIAAxkBAAMMaLM5OLxjjjVo6F2cKc8SpbpX1QkAAnlkAAJ47WhJaq5NVnolSy82BA",
+        "text": {
+          "en": "You can create bots using BotFather and APIs.",
+          "uz": "Botlarni BotFather va API yordamida yaratishingiz mumkin.",
+          "ru": "Ботов можно создавать с помощью BotFather и API."
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "type": "multiple-choice",
+        "question": {
+          "en": "Which tool is used to create a Telegram bot?",
+          "uz": "Telegram botini yaratishda qaysi vosita ishlatiladi?",
+          "ru": "Какой инструмент используется для создания бота Telegram?"
+        },
+        "options": {
+          "en": [
+            "BotFather",
+            "Photoshop",
+            "Figma",
+            "Visual Studio"
+          ],
+          "uz": [
+            "BotFather",
+            "Photoshop",
+            "Figma",
+            "Visual Studio"
+          ],
+          "ru": [
+            "BotFather",
+            "Photoshop",
+            "Figma",
+            "Visual Studio"
+          ]
+        },
+        "answer": "BotFather"
+      }
+    ]
+  },
+  {
+    "id": 105,
+    "category": "Future Jobs",
+    "tutor": "Alijonov Valijon",
+    "hours": 0,
+    "mins": 0,
+    "tutor_image": "https://postimg.cc/kB3p7JSC",
+    "rating": "5.0",
+    "rating_votes": 0,
+    "name": {
+      "en": "Video Editor",
+      "uz": "Video montajchi",
+      "ru": "Видео монтажер"
+    },
+    "description": {
+      "en": "Edit and create videos using editing software.",
+      "uz": "Video tahrirlash dasturlari yordamida videolar yaratish.",
+      "ru": "Редактирование и создание видео с помощью программ."
+    },
+    "image": "https://example.com/images/video-editor.png",
+    "content": [
+      {
+        "title": "Introduction to Video Editing",
+        "videoUrl": "BAACAgIAAxkBAAMMaLM5OLxjjjVo6F2cKc8SpbpX1QkAAnlkAAJ47WhJaq5NVnolSy82BA",
+        "text": {
+          "en": "Video editing involves cutting, trimming, and enhancing videos.",
+          "uz": "Video montaji videoni kesish, qisqartirish va yaxshilashni o'z ichiga oladi.",
+          "ru": "Видеомонтаж включает обрезку, сокращение и улучшение видео."
+        }
+      },
+      {
+        "title": "Popular Editing Tools",
+        "videoUrl": "BAACAgIAAxkBAAMMaLM5OLxjjjVo6F2cKc8SpbpX1QkAAnlkAAJ47WhJaq5NVnolSy82BA",
+        "text": {
+          "en": "Adobe Premiere Pro and CapCut are widely used.",
+          "uz": "Adobe Premiere Pro va CapCut keng qo'llaniladi.",
+          "ru": "Adobe Premiere Pro и CapCut широко используются."
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "type": "multiple-choice",
+        "question": {
+          "en": "Which software is popular for video editing?",
+          "uz": "Video tahrirlash uchun mashhur dastur qaysi?",
+          "ru": "Какое ПО популярно для видеомонтажа?"
+        },
+        "options": {
+          "en": [
+            "Adobe Premiere Pro",
+            "Word",
+            "Excel",
+            "Paint"
+          ],
+          "uz": [
+            "Adobe Premiere Pro",
+            "Word",
+            "Excel",
+            "Paint"
+          ],
+          "ru": [
+            "Adobe Premiere Pro",
+            "Word",
+            "Excel",
+            "Paint"
+          ]
+        },
+        "answer": "Adobe Premiere Pro"
+      }
+    ]
+  },
+  {
+    "id": 106,
+    "category": "Future Jobs",
+    "tutor": "Alijonov Valijon",
+    "hours": 0,
+    "mins": 0,
+    "tutor_image": "https://postimg.cc/kB3p7JSC",
+    "rating": "5.0",
+    "rating_votes": 0,
+    "name": {
+      "en": "E-commerce Seller (Uzum Market)",
+      "uz": "Elektron tijorat sotuvchisi (Uzum Market)",
+      "ru": "Продавец в электронной коммерции (Uzum Market)"
+    },
+    "description": {
+      "en": "Sell products online using Uzum marketplace.",
+      "uz": "Uzum bozori orqali onlayn mahsulot sotish.",
+      "ru": "Продажа товаров онлайн через маркетплейс Uzum."
+    },
+    "image": "https://example.com/images/uzum-market.png",
+    "content": [
+      {
+        "title": "What is E-commerce?",
+        "videoUrl": "BAACAgIAAxkBAAMMaLM5OLxjjjVo6F2cKc8SpbpX1QkAAnlkAAJ47WhJaq5NVnolSy82BA",
+        "text": {
+          "en": "E-commerce means buying and selling products online.",
+          "uz": "Elektron tijorat mahsulotlarni onlayn sotib olish va sotishni anglatadi.",
+          "ru": "Электронная коммерция — это покупка и продажа товаров онлайн."
+        }
+      },
+      {
+        "title": "Selling on Uzum Market",
+        "videoUrl": "BAACAgIAAxkBAAMMaLM5OLxjjjVo6F2cKc8SpbpX1QkAAnlkAAJ47WhJaq5NVnolSy82BA",
+        "text": {
+          "en": "Uzum Market allows sellers to reach thousands of customers.",
+          "uz": "Uzum Market sotuvchilarga minglab mijozlarga yetib borish imkonini beradi.",
+          "ru": "Uzum Market позволяет продавцам охватить тысячи клиентов."
+        }
+      }
+    ],
+    "quiz": [
+      {
+        "type": "multiple-choice",
+        "question": {
+          "en": "What does E-commerce mean?",
+          "uz": "Elektron tijorat nima degani?",
+          "ru": "Что означает электронная коммерция?"
+        },
+        "options": {
+          "en": [
+            "Selling and buying products online",
+            "Buying from stores",
+            "Selling at bazaars",
+            "Cash payments"
+          ],
+          "uz": [
+            "Mahsulotlarni onlayn sotib olish va sotish",
+            "Do'kondan xarid qilish",
+            "Bozorda sotish",
+            "Naqd to'lovlar"
+          ],
+          "ru": [
+            "Продажа и покупка онлайн",
+            "Покупка в магазинах",
+            "Продажа на базаре",
+            "Оплата наличными"
+          ]
+        },
+        "answer": "Selling and buying products online"
+      }
+    ]
+  }
+]
